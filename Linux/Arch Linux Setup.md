@@ -6,5 +6,5 @@
 	5. パッケージのインストール
 ## CUI環境
 ### パッケージ
-- [# Alacritty]
+- [Alacritty]()
 ## GUI環境
