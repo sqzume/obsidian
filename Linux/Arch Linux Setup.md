@@ -11,4 +11,7 @@
 ## GUI環境
 - [[Wayland]]
 - [[Hyprland]]
-- 
+- [[wayber]]
+- [[Wofi]]
+- [[hyorpaper]]
+- [[]]
