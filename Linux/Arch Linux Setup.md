@@ -10,3 +10,5 @@
 - [[tmux]]
 ## GUI環境
 - [[Wayland]]
+- [[Hyprland]]
+- l
