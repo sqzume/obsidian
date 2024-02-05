@@ -9,3 +9,4 @@
 - [[Alacritty]]
 - [[tmux]]
 ## GUI環境
+- [[Wayland]]
