@@ -10,6 +10,7 @@
 - [[Alacritty]]
 - [[tmux]]
 ## GUI環境
+### パッケージ
 - [[Wayland]]
 - [[Hyprland]]
 - [[wayber]]
