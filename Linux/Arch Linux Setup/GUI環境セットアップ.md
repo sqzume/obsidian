@@ -1,0 +1,6 @@
+- [[Wayland]]
+- [[Hyprland]]
+- [[wayber]]
+- [[Wofi]]
+- [[hyorpaper]]
+- [[dunst]]
