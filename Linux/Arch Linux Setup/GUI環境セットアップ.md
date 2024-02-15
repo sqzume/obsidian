@@ -3,5 +3,5 @@
 - [[wayber]]
 - [[Wofi]]
 - [[hyorpaper]]
-- 通知デーモン
+- **通知デーモン**
 	- [[dunst]]
