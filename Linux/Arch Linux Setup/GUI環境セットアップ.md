@@ -8,7 +8,3 @@
 - **通知デーモン**
 	- [[dunst]]
 
- | Name | Name |
-| Nema | Nmsf |
-
-
