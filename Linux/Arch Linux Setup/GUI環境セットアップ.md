@@ -1,5 +1,7 @@
 - [[Wayland]]
 - [[Hyprland]]
+- **ディスプレイマネージャ**
+	- [[Ly]]
 - [[wayber]]
 - [[Wofi]]
 - [[hyorpaper]]
