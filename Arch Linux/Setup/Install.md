@@ -3,7 +3,11 @@
 ```bash
 gdisk /dev/<デバイス名>
 ```
-###
+### フォーマット
+```bash
+mkfs.vfat -F32 /dev/<EFIシステムパーティション>
+mkfs.btrfs /dev/<Arch Linuxパーティション>
+```
 ### パッケージのインストール
 ```bash
 pacstrap -i /mnt base linux linux-firmware amd-ucode git neovim sudo
