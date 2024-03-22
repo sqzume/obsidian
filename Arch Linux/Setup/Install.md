@@ -3,6 +3,7 @@
 ```bash
 gdisk /dev/<デバイス名>
 ```
+###
 ### パッケージのインストール
 ```bash
 pacstrap -i /mnt base linux linux-firmware amd-ucode git neovim sudo
