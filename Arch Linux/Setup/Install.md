@@ -10,7 +10,7 @@ mkfs.btrfs /dev/<Arch Linuxパーティション>
 ```
 ### パッケージのインストール
 ```bash
-pacstrap -i /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
+pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 ```
 ### ブートローダー
 ```bash
