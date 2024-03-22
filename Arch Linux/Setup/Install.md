@@ -14,5 +14,6 @@ pacstrap -i /mnt base linux linux-firmware amd-ucode git neovim sudo
 ```
 ### ブートローダー
 ```bash
+bootctl install
 
 ```
