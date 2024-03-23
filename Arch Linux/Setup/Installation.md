@@ -10,7 +10,7 @@ mkfs.ext4 /dev/<Arch Linuxパーティション> -L arch_os
 ```
 ### パッケージのインストール
 ```bash
-pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo yay
+pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 ```
 ### ブートローダー（未完成）
 ```bash
