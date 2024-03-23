@@ -26,7 +26,7 @@ title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /amd-ucode.img
 initrd  /initramfs-linux.img
-options root=LABEL="arch_os" rw
+options root="LABEL=arch_os" rw
 ```
 #### ローダー設定
 ```bash
