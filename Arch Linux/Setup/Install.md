@@ -22,6 +22,7 @@ touch /boot/loader/entries/arch.conf
 nvim /boot/loader/entries/arch.conf
 ```
 
+次のように設定
 ```arch.conf
 title   Arch Linux
 linux   /vmlinuz-linux
