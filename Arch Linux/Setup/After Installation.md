@@ -46,3 +46,7 @@ nvidia nvidia_modeset nvidia_uvm nvidia_drm
 ```
 options nvidia-drm modeset=1
 ```
+
+```zsh
+sudo pacman -S 
+```
