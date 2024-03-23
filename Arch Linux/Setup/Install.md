@@ -16,7 +16,7 @@ pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 ```bash
 bootctl install
 ```
-#### ローダーエントリを追加
+#### ローダーを追加
 ```bash
 touch /boot/loader/entries/arch.conf
 nvim /boot/loader/entries/arch.conf
