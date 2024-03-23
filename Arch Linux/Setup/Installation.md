@@ -19,11 +19,10 @@ bootctl install
 #### ローダーを追加
 ```bash
 touch /boot/loader/entries/arch.conf
-nvim /boot/loader/entries/arch.conf
 ```
 
-次のように設定
-```arch.conf
+`arch.conf`を次のように設定
+```
 title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /amd-ucode.img

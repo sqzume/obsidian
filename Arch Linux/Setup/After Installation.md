@@ -33,6 +33,7 @@ sudo pacman -S nvidia-dkms linux-headers
 ```
 
 `/boot/loader/entries/arch.conf`の末尾に追加
-```arch.conf
+```
 nvidia_drm.modeset=1
 ```
+
