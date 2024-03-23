@@ -6,7 +6,7 @@ gdisk /dev/<デバイス名>
 ### フォーマット
 ```bash
 mkfs.vfat -F32 /dev/<EFIシステムパーティション>
-mkfs.btrfs /dev/<Arch Linuxパーティション>
+mkfs.ext4 /dev/<Arch Linuxパーティション>
 ```
 ### パッケージのインストール
 ```bash
