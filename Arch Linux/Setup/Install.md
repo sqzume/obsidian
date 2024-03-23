@@ -6,7 +6,7 @@ gdisk /dev/<デバイス名>
 ### フォーマット
 ```bash
 mkfs.vfat -F32 /dev/<EFIシステムパーティション>
-mkfs.ext4 /dev/<Arch Linuxパーティション>
+mkfs.ext4 /dev/<Arch Linuxパーティション> -L arch_os
 ```
 ### パッケージのインストール
 ```bash
@@ -19,7 +19,6 @@ bootctl install
 #### ローダーエントリを追加
 ```bash
 touch /boot/loader/entries/arch.conf
-blkid | grep <Arch Linuxパーティション> >> /boot/loader/entries/arch.conf
 nvim /boot/loader/entries/arch.conf
 
 // 以下のようにする
@@ -27,7 +26,7 @@ title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /amd-ucode.img
 initrd  /initramfs-linux.img
-options root=UUID=XXXX rw
+options root=LABEL="arch_os" rw
 ```
 #### ローダー設定
 ```bash
