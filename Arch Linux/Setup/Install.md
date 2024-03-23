@@ -33,6 +33,6 @@ options root="LABEL=arch_os" rw
 nvim /boot/loader/loader.conf
 
 // 以下のようにする
-default Arch Linux
-timeout 3
+default arch.conf
+timeout 4
 ```
