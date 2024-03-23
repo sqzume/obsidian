@@ -12,5 +12,6 @@ EDITOR=neovim visudo
 
 ログイン
 ```bash
-
+su sqzume
 ```
+### CLI環境のセットアップ
