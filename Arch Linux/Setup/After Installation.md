@@ -19,6 +19,7 @@ su sqzume
 sudo pacman -S zsh
 chsh /usr/bin/zsh
 ```
+#### yay
 ### GUI環境のセットアップ
 ```zsh
 sudo pacman -S nvidia-dkms
