@@ -15,3 +15,7 @@ EDITOR=neovim visudo
 su sqzume
 ```
 ### CLI環境のセットアップ
+```bash
+sudo pacman -S zsh
+
+```
