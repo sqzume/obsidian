@@ -12,8 +12,9 @@ mkfs.btrfs /dev/<Arch Linuxパーティション>
 ```bash
 pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 ```
-### ブートローダー
+### ブートローダー（未完成）
 ```bash
 bootctl install
 
 ```
+## 
