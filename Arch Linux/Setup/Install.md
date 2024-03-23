@@ -17,4 +17,3 @@ pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 bootctl install
 
 ```
-## 
