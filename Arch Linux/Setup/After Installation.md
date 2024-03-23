@@ -24,7 +24,8 @@ chsh /usr/bin/zsh
 git clone https://aur.archlinux.org/yay-bin.git yay-bin
 cd yay-bin
 makepkg -si --noconfirm
-
+cd ..
+rm -rf yay-bin
 ```
 ### GUI環境のセットアップ
 ```zsh
