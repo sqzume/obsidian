@@ -17,5 +17,6 @@ su sqzume
 ### CLI環境のセットアップ
 ```bash
 sudo pacman -S zsh
-
+zsh
+chsh /usr/bin/zsh
 ```
