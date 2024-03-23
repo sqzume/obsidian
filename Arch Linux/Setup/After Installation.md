@@ -37,3 +37,8 @@ sudo pacman -S nvidia-dkms linux-headers
 nvidia_drm.modeset=1
 ```
 
+`/etc/mkinitcpio.conf`の`MODULES`に追加
+```
+nvidia nvidia_modeset nvidia_uvm nvidia_drm
+```
+
