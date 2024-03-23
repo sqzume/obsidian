@@ -38,3 +38,7 @@ nvim /boot/loader/loader.conf
 default arch.conf
 timeout 4
 ```
+### シャットダウン
+```bash
+shutdown 0
+```
