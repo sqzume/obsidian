@@ -19,7 +19,13 @@ su sqzume
 sudo pacman -S zsh
 chsh /usr/bin/zsh
 ```
-#### yay
+#### yayのインストール
+```zsh
+git clone https://aur.archlinux.org/yay-bin.git yay-bin
+cd yay-bin
+makepkg -si --noconfirm
+
+```
 ### GUI環境のセットアップ
 ```zsh
 sudo pacman -S nvidia-dkms
