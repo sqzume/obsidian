@@ -50,3 +50,7 @@ options nvidia-drm modeset=1
 ```zsh
 sudo pacman -S qt5-wayland qt5ct libva
 ```
+#### パッケージのインストール
+```zsh
+sudo pacman -S hyprland
+```
