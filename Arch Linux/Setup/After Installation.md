@@ -29,5 +29,5 @@ rm -rf yay-bin
 ```
 ### GUI環境のセットアップ
 ```zsh
-sudo pacman -S nvidia-dkms
+sudo pacman -S nvidia-dkms linux-headers
 ```
