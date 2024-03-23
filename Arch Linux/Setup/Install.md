@@ -15,5 +15,25 @@ pacstrap -K /mnt base base-devel linux linux-firmware amd-ucode git neovim sudo
 ### ブートローダー（未完成）
 ```bash
 bootctl install
+```
+#### ローダーエントリを追加
+```bash
+touch /boot/loader/entries/arch.conf
+blkid | grep <Arch Linuxパーティション> >> /boot/loader/entries/arch.conf
+nvim /boot/loader/entries/arch.conf
 
+// 以下のようにする
+title   Arch Linux
+linux   /vmlinuz-linux
+initrd  /amd-ucode.img
+initrd  /initramfs-linux.img
+options root=UUID=XXXX rw
+```
+#### ローダー設定
+```bash
+nvim /boot/loader/loader.conf
+
+// 以下のようにする
+default Arch Linux
+timeout 3
 ```
