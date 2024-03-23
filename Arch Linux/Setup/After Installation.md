@@ -42,3 +42,7 @@ nvidia_drm.modeset=1
 nvidia nvidia_modeset nvidia_uvm nvidia_drm
 ```
 
+`/etc/modprobe.d/nvidia.conf`(存在しない場合は作成)に追加
+```
+options nvidia-drm modeset=1
+```
