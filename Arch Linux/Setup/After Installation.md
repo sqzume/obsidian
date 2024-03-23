@@ -7,4 +7,10 @@ EDITOR=neovim visudo
 
 アンコメント
 ```
+#%wheel ALL=(ALL) ALL
+```
+
+ログイン
+```bash
+
 ```
