@@ -20,8 +20,9 @@ bootctl install
 ```bash
 touch /boot/loader/entries/arch.conf
 nvim /boot/loader/entries/arch.conf
+```
 
-// 以下のようにする
+```arch.conf
 title   Arch Linux
 linux   /vmlinuz-linux
 initrd  /amd-ucode.img
