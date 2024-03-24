@@ -17,7 +17,8 @@ su sqzume
 ### CLI環境のセットアップ
 ```bash
 sudo pacman -S zsh
-chsh /usr/bin/zsh
+zsh
+chsh -s /usr/bin/zsh
 ```
 #### yayのインストール
 ```zsh
