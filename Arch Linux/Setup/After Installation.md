@@ -53,5 +53,5 @@ sudo pacman -S qt5-wayland qt5ct libva
 ```
 #### パッケージのインストール
 ```zsh
-sudo pacman -S hyprland wayber wofi alacritty thunar dunst
+sudo pacman -S hyprland waybar wofi alacritty thunar dunst
 ```
