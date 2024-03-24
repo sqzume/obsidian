@@ -2,12 +2,12 @@
 ```bash
 useradd -m -G wheel sqzume
 passwd sqzume
-EDITOR=neovim visudo
+EDITOR=nvim visudo
 ```
 
 アンコメント
 ```
-#%wheel ALL=(ALL) ALL
+# %wheel ALL=(ALL:ALL) ALL
 ```
 
 ログイン
